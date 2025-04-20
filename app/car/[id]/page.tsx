@@ -14,7 +14,7 @@ export default async function Page({ params }: PageProps) {
     return (
       <div className="p-8 text-center text-xl text-gray-700">
         <h1>Car not found</h1>
-        <p>Sorry, we couldn't find the car you're looking for.</p>
+        <p>Sorry, we couldn`&apos;`t find the car you`&apos;`re looking for.</p>
       </div>
     )
   }
