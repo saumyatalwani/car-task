@@ -1,7 +1,7 @@
 import { data } from "@/mockData"
 
 interface PageProps {
-  params: { id: string }
+  params: Promise<{ id: string }>; // params is a Promise now
 }
 
 export default async function Page({ params }: PageProps) {
